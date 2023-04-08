@@ -127,8 +127,16 @@ td {
 }
 
 @media (max-width: 375px) {
+header {
+  position: relative;
+  top: 0;
+}
+.empty {
+  height: 0px;
+}
 .top-menu {
   height: 300px;
+  width: 100%;
   justify-content: center;
   align-items: center;
 }
