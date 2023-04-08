@@ -3,7 +3,14 @@ html {
   font-family: 'Times New Roman', Times, serif;
   font-size: 10px;  
 }
-
+header {
+  position: fixed;
+  width: 100%;
+}
+main {
+  padding-top: 90px;
+  
+}
 .menu-wrapper {
   max-width: 1600px;
   width: 100%;
@@ -15,7 +22,7 @@ html {
   justify-content: space-between;
   align-items: center;
     
-  background: rgba(34, 33, 33, 0.116);
+  background: rgb(34, 33, 33);
   box-shadow: 3px 0 7px rgba(0, 0, 0, 0.541);
   padding: 1rem;
 }
