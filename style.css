@@ -48,8 +48,58 @@ html {
   color: white;
   border-radius: 5px;
 }
+main {
+  font-size: 1.5rem;
+}
+table {
+  width: 100%;
+  background-color: rgba(34, 33, 33, 0.116);
+  font-size: 1.5rem;
+  border: 1px solid grey;
+}
+th {
+  border: 1px solid grey;
+}
+td {
+  border: 1px solid grey;
+}
 
-
+.list img {
+  width: 40px;
+  height: 48px;
+}
+.table-title {
+  background-color: rgba(34, 33, 33, 0.973);
+  color: #f6f8f7;
+  font-size: 2rem;
+}
+.table-number {
+  width: 3%;
+}
+.table-name {
+  width: 60%;
+}
+.table-units {
+  width: 5%;
+}
+.table-kol {
+  width: 5%;
+}
+.table-price {
+  width: 7%;
+}
+.table-img {
+  width: 20%
+}
+.table-performer {
+  width: 30%
+}
+.mp3-name {
+  width: 40%;
+}
+.vinyl-name {
+  width: 40%;
+}
 
 @media (max-width: 960px) {
 .top-menu {
@@ -68,11 +118,22 @@ html {
 }
 
 @media (max-width: 375px) {
-
+.top-menu {
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
 .menu-wrapper {
   width: 375px;
 }
+.menu-main {
+  height: 300px;
+  flex-direction: column;
+}
+.menu-main li {
+  padding: 10px;
+}
 .menu-main a {
-  font-size: 1rem;
+  font-size: 2rem;
 }
 }
