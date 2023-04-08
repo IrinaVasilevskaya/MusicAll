@@ -107,7 +107,9 @@ td {
 .vinyl-name {
   width: 40%;
 }
-
+.empty {
+  height: 95px;
+}
 @media (max-width: 960px) {
 .top-menu {
   justify-content: space-between;
