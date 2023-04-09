@@ -109,6 +109,13 @@ td {
 .empty {
   height: 95px;
 }
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
 @media (max-width: 960px) {
 .top-menu {
   justify-content: space-between;
@@ -125,7 +132,7 @@ td {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
 header {
   position: relative;
   top: 0;
