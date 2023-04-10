@@ -83,7 +83,7 @@ td {
   width: 3%;
 }
 .table-name {
-  width: 60%;
+  width: 50%;
 }
 .table-units {
   width: 5%;
@@ -91,14 +91,17 @@ td {
 .table-kol {
   width: 5%;
 }
+.mp3-label {
+  width: 10%;
+}
 .table-price {
-  width: 7%;
+  width: 15%;
 }
 .table-img {
-  width: 20%
+  width: 15%
 }
 .table-performer {
-  width: 30%
+  width: 35%
 }
 .mp3-name {
   width: 40%;
@@ -158,5 +161,8 @@ header {
 }
 .menu-main a {
   font-size: 2rem;
+}
+.mp3-name {
+  display: none;
 }
 }
