@@ -166,17 +166,26 @@ header {
 .menu-main a {
   font-size: 2rem;
 }
+.table-title {
+  font-size: 2rem;
+}
+th {
+  font-size: 1rem;
+}
+td {
+  font-size: 1rem;
+}
 .mp3-performer {
-  width: 20%;
+  width: 30%;
 }
 .mp3-name {
-  width: 20%;
+  width: 30%;
 }
 .mp3-label {
   width: 15%;
 }
 .table-img {
-  width: 10%;
+  width: 15%;
 }
 .mp3-note {
   display: none;
