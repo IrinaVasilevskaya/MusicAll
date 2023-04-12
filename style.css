@@ -43,7 +43,7 @@ main {
 .menu-main a {
   text-decoration: none;
   margin: 1rem;
-  font-size: 2rem;
+  font-size: 3rem;
   letter-spacing: 2px;
   font-weight: bold;
   color: #2a8307;
@@ -66,6 +66,7 @@ table {
 }
 th {
   border: 1px solid grey;
+  font-size: 2rem;
 }
 td {
   border: 1px solid grey;
@@ -77,11 +78,9 @@ td {
 .table-title {
   background-color: rgba(34, 33, 33, 0.973);
   color: #f6f8f7;
-  font-size: 2rem;
+  font-size: 3rem;
 }
-.table-number {
-  width: 3%;
-}
+
 .table-name {
   width: 40%;
 }
@@ -129,7 +128,6 @@ footer {
 .top-menu {
   justify-content: space-between;
 }
-
 .menu-main a {
   font-size: 1.5rem;
 }
@@ -168,7 +166,19 @@ header {
 .menu-main a {
   font-size: 2rem;
 }
+.mp3-performer {
+  width: 20%;
+}
 .mp3-name {
+  width: 20%;
+}
+.mp3-label {
+  width: 15%;
+}
+.table-img {
+  width: 10%;
+}
+.mp3-note {
   display: none;
 }
 }
