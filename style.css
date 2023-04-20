@@ -28,8 +28,7 @@ main {
 }
 
 .navbar-logo img{
-  height: 60px;
-  width: 50px;
+  height: 80px;
 }
 .menu-main {
   display: flex;
