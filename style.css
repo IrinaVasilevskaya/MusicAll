@@ -22,14 +22,13 @@ main {
   justify-content: space-between;
   align-items: center;
     
-  background: rgb(34, 33, 33);
+  background: rgb(250, 250, 250);
   box-shadow: 3px 0 7px rgba(0, 0, 0, 0.541);
   padding: 1rem;
 }
 
 .navbar-logo img{
-  height: 60px;
-  width: 50px;
+  height: 80px;
 }
 .menu-main {
   display: flex;
@@ -43,7 +42,7 @@ main {
 .menu-main a {
   text-decoration: none;
   margin: 1rem;
-  font-size: 2rem;
+  font-size: 3rem;
   letter-spacing: 2px;
   font-weight: bold;
   color: #2a8307;
@@ -66,6 +65,7 @@ table {
 }
 th {
   border: 1px solid grey;
+  font-size: 2rem;
 }
 td {
   border: 1px solid grey;
@@ -77,13 +77,11 @@ td {
 .table-title {
   background-color: rgba(34, 33, 33, 0.973);
   color: #f6f8f7;
-  font-size: 2rem;
+  font-size: 3rem;
 }
-.table-number {
-  width: 3%;
-}
+
 .table-name {
-  width: 60%;
+  width: 40%;
 }
 .table-units {
   width: 5%;
@@ -92,16 +90,25 @@ td {
   width: 5%;
 }
 .table-price {
-  width: 7%;
+  width: 10%;
 }
 .table-img {
-  width: 20%
+  width: 5%
 }
 .table-performer {
-  width: 30%
+  width: 20%
+}
+.mp3-performer {
+  width: 20%;
 }
 .mp3-name {
-  width: 40%;
+  width: 30%;
+}
+.mp3-label {
+  width: 20%;
+}
+.mp3-note {
+  width: 15%;
 }
 .vinyl-name {
   width: 40%;
@@ -109,11 +116,17 @@ td {
 .empty {
   height: 95px;
 }
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
 @media (max-width: 960px) {
 .top-menu {
   justify-content: space-between;
 }
-
 .menu-main a {
   font-size: 1.5rem;
 }
@@ -125,7 +138,7 @@ td {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 420px) {
 header {
   position: relative;
   top: 0;
@@ -151,5 +164,32 @@ header {
 }
 .menu-main a {
   font-size: 2rem;
+}
+.table-title {
+  font-size: 2rem;
+}
+th {
+  font-size: 1rem;
+}
+td {
+  font-size: 1rem;
+}
+.mp3-performer {
+  width: 30%;
+}
+.mp3-name {
+  width: 30%;
+}
+.mp3-label {
+  width: 15%;
+}
+.table-img {
+  width: 15%;
+}
+.mp3-note {
+  display: none;
+}
+footer {
+  font-size: 1rem;
 }
 }
