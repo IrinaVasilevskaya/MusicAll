@@ -193,3 +193,7 @@ footer {
   font-size: 1rem;
 }
 }
+
+.sold {
+  display: none;
+}
